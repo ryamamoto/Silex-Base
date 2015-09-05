@@ -1,0 +1,23 @@
+# Thumbnails
+._*
+
+# vim backup
+*.swp
+
+# Mac OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Files that might appear on external disk
+.Trashes
+.Spotlight-V100
+
+# Composer
+composer.phar
+composer.lock
+/vendor/
+
+# PHPStorm
+/.idea/
