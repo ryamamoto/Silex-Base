@@ -17,10 +17,11 @@ Icon
 # Composer
 composer.phar
 composer.lock
-/vendor/
+vendor/
 
 # PHPStorm
-/.idea/
+.idea/
 
 # App
+var/cache/twig/
 !.gitkeep
