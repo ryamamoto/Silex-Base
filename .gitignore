@@ -22,4 +22,5 @@ composer.lock
 # PHPStorm
 /.idea/
 
-/var/cache/twig/*
+# App
+!.gitkeep

@@ -1,7 +1,7 @@
 Silex Base Skeleton
 ==============
 
-# install
+## install
 
     git clone https://github.com/ryamamoto/Silex-Baes.repo
     cd Silex-Base
