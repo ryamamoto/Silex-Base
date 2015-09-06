@@ -23,6 +23,6 @@ vendor/
 .idea/
 
 # App
-var/logs/
-var/cache/twig/
+/var/logs/
+/var/cache/twig/
 !.gitkeep
