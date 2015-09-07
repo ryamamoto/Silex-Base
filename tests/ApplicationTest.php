@@ -26,4 +26,11 @@ class ApplicationTest extends WebTestCase
         $client->request('GET', '/');
         $this->assertTrue($client->getResponse()->isOk());
     }
+
+    public function testWordInThePage()
+    {
+        $client = $this->createClient();
+        $crawler = $client->request('GET', '/');
+        $this->assertContains('Welcome to your new Silex Application', $crawler->filter('body')->text());
+    }
 }
